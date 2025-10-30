@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
     while True:
         if _RICH_AVAILABLE:
-            choice = Prompt.ask("Which direction do you choose? (left/right/exit)").strip().lower()
+            choice = Prompt.ask("[bold]Which direction do you choose? (left/right/exit)[/]").strip().lower()
         else:
             choice = input("Which direction do you choose? (left/right/exit): ").strip().lower()
 
